@@ -1,0 +1,19 @@
+{
+  "name": "querc.net",
+  "version": "0.0.1",
+  "description": "Querc.net website",
+  "main": "default.html",
+  "scripts": {
+    "test": "Chrome default.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lindsayevans/querc.net.git"
+  },
+  "author": "Lindsay Evans <linz@linz.id.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lindsayevans/querc.net/issues"
+  },
+  "homepage": "https://github.com/lindsayevans/querc.net"
+}
