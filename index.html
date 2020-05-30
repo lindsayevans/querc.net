@@ -1,1 +1,41 @@
-hi
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <title>Querc.net</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Querc.net" />
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-color: #fff;
+        color: #666;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .acorn {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <picture>
+      <source srcset="assets/images/acorn.webp" type="image/webp" />
+      <source srcset="assets/images/acorn.png" type="image/png" />
+      <img
+        src="assets/images/acorn.png"
+        width="198"
+        height="132"
+        alt="Photograph of an acorn"
+        class="acorn"
+      />
+    </picture>
+  </body>
+</html>
